@@ -3,9 +3,13 @@
 }
 
 .hw {
-
+    margin: 0 70px;
 }
-
 .hwTitle {
-
+    margin: 0 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
 }
