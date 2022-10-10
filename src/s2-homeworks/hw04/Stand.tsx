@@ -77,13 +77,15 @@ const Stand = () => {
             <div className={s.checkboxes}>
                 {/*чекбокс с текстом:*/}
                 <div>
-                    <SuperCheckbox
-                        id={'hw4-super-checkbox-with-text'}
-                        checked={stateForAllCheckboxes}
-                        onChangeChecked={setChecked}
-                    >
-                        some text
-                    </SuperCheckbox>
+                    <label>
+                        <SuperCheckbox
+                            id={'hw4-super-checkbox-with-text'}
+                            checked={stateForAllCheckboxes}
+                            onChangeChecked={setChecked}
+                        >
+                            some text
+                        </SuperCheckbox>
+                    </label>
                 </div>
                 {/*совместим со старым кодом:*/}
                 <div>
