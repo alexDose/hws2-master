@@ -12,7 +12,9 @@ import Stand from './Stand'
 const HW4 = () => {
     return (
         <div id={'hw4'}>
+            <hr className={s2.hr}/>
             <div className={s2.hwTitle}>Homework #4</div>
+            <hr className={s2.hr}/>
             {/*демонстрация возможностей компонент:*/}
             <div className={s2.hw}>
                 <Stand />
