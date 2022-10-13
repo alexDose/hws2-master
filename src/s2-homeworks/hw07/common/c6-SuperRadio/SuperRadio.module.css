@@ -9,7 +9,23 @@
 }
 
 .label {
+    display: flex;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span {
+    margin-left: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #000000;
 }
