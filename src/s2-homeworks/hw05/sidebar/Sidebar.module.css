@@ -4,15 +4,12 @@
     position: absolute;
     width: 317px;
     height: 100vh;
-display: none;
+    display: none;
     z-index: 1;
-    transition-duration: 500ms;
 }
 
 .sidebar.open {
-display: block;
-    transition-duration: 500ms;
-
+    display: block;
 }
 
 .background {
