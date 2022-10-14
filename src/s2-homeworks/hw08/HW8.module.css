@@ -5,15 +5,31 @@
 }
 
 .users {
+    width: 100%;
+
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 17px;
 }
 
 .container {
+    width: 606px;
 }
 
 .thead {
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
 }
 
 .nameCol {

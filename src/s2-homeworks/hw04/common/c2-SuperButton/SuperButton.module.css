@@ -1,7 +1,6 @@
 .button {
+    padding: 5px 24px;
     border: none;
-    height: 30px;
-    width: 167px;
     border-radius: 3px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
